@@ -4,13 +4,19 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-	File_Encryptor.cpp \
+	Data_Encryptor.cpp \
 	File_Mask.cpp \
+	File_Processor.cpp \
 	main.cpp
 
 LIBS += \
 	-lstdc++fs
 
 HEADERS += \
-	File_Encryptor.h \
-	File_Mask.h
+	Data_Encryptor.h \
+	File_Mask.h \
+	File_Processor.h
+
+unix {
+    LIBS += -lpthread
+}

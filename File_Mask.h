@@ -20,6 +20,7 @@ private:
 	unsigned int M_substr_offset(const std::string& _raw, unsigned int _offset, const std::string& _substr) const;
 
 public:
+	File_Mask();
 	File_Mask(const std::string& _raw_pattern);
 	void operator=(const std::string& _raw_pattern);
 

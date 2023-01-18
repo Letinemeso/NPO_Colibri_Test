@@ -70,6 +70,11 @@ unsigned int File_Mask::M_substr_offset(const std::string &_raw, unsigned int _o
 
 
 
+File_Mask::File_Mask()
+{
+
+}
+
 File_Mask::File_Mask(const std::string& _raw_pattern)
 	: m_raw_pattern(_raw_pattern)
 {
