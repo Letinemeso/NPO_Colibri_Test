@@ -117,6 +117,7 @@ int main()
 
 		if(command_id == 0)
 		{
+			std::cout << "Please wait a little...\n\n";
 			processor.stop();	//	this should wait until processor's thread is stopped
 			break;
 		}
