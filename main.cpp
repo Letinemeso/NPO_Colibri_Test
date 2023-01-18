@@ -9,6 +9,8 @@ namespace filesystem = std::experimental::filesystem;
 
 int main()
 {
+	//	i haven't put a lot of effort into "ui" design due to limited time and lack of necessity :)
+
 	File_Processor processor;
 
 	std::cout << "Hello, Simple Encoder User! Please specify some options below:\n\n";
